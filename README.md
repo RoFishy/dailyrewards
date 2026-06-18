@@ -14,10 +14,8 @@
 
 System to handle daily rewards in-game
 
-<div align="center"><a href="https://quenty.github.io/NevermoreEngine/api/DailyrewardsUtils">View docs →</a></div>
-
 ## Installation
 
 ```
-npm install @quenty/dailyrewards --save
+npm install @rofishy/dailyrewards --save
 ```

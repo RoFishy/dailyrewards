@@ -1,6 +1,6 @@
 {
   "name": "@rofishy/dailyrewards",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "System to handle daily rewards in-game",
   "keywords": [
     "Roblox",
@@ -9,11 +9,11 @@
     "dailyrewards"
   ],
   "bugs": {
-    "url": "https://github.com/Quenty/NevermoreEngine/issues"
+    "url": "hhttps://github.com/RoFishy/dailyrewards/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Quenty/NevermoreEngine.git",
+    "url": "https://github.com/RoFishy/dailyrewards.git",
     "directory": "src/dailyrewards/"
   },
   "funding": {
