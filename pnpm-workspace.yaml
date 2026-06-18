@@ -1,0 +1,10 @@
+allowBuilds:
+  '@quenty/baseobject': true
+  '@quenty/deferred': true
+  '@quenty/loader': true
+  '@quenty/maid': true
+  '@quenty/math': true
+  '@quenty/nevermore-test-runner': true
+  '@quenty/promise': true
+  '@quenty/servicebag': true
+  '@quenty/signal': true

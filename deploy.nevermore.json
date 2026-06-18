@@ -1,0 +1,10 @@
+{
+  "targets": {
+    "test": {
+      "universeId": 9969099532,
+      "placeId": 98299139120430,
+      "project": "test/default.project.json",
+      "scriptTemplate": "test/scripts/Server/ServerMain.server.lua"
+    }
+  }
+}

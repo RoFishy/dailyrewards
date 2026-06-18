@@ -1,0 +1,104 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      '@quenty/loader':
+        specifier: 10.11.0
+        version: 10.11.0
+      '@quenty/maid':
+        specifier: ^3.9.0
+        version: 3.9.0
+      '@quenty/nevermore-test-runner':
+        specifier: 1.4.0
+        version: 1.4.0
+      '@quenty/promise':
+        specifier: ^10.18.1
+        version: 10.18.1
+      '@quenty/servicebag':
+        specifier: ^11.18.1
+        version: 11.18.1
+      '@quentystudios/jest-lua':
+        specifier: 3.10.0-quenty.2
+        version: 3.10.0-quenty.2
+
+packages:
+
+  '@quenty/baseobject@10.13.0':
+    resolution: {integrity: sha512-JAbHD5bIhjwI1akXSHLUOsU+Vjp/x89y6wKj472EQgQCwOshEluogE5uqPnDcfqStrFZqrjkaHQZl88vHZikZw==}
+
+  '@quenty/deferred@2.3.2':
+    resolution: {integrity: sha512-/8C9cJtnsRa+hvmW5Q94JdZtUz+OUg1+oGq2/3PHTWCoVtmwLTxR+5AHpYzQKaitEIxAIQaZqhuhp5mOTMteTw==}
+
+  '@quenty/loader@10.11.0':
+    resolution: {integrity: sha512-dijfRLI2bouQjt9OG20aL7waEzJNzzFMXC3+NFm2meCQ7jvCTI5EgmW3eYZHmegFAzmrWtogbQPNR+pIb8T3Zg==}
+
+  '@quenty/maid@3.9.0':
+    resolution: {integrity: sha512-MKyAYZRdIjYUBchMQavT0AXV/nJMmuRn4jIy8gYNV0Ub40Naub7ECGLtIviLwyiwW0FGKS/Wl5tGjHfObvAwUw==}
+
+  '@quenty/math@2.7.5':
+    resolution: {integrity: sha512-tYOvmTwijqm1og6QdO+j9EDKSk0/0TCae83H1yUElYWuzV1PAG1Q18VT0Yk0q/05Uduulb2s3Dx6QmyI/qKSgA==}
+
+  '@quenty/nevermore-test-runner@1.4.0':
+    resolution: {integrity: sha512-mlscddpT+16AY3sW8mJoHoD4nDR94viNQ1sWKC0//bZRaTOHColG2YqE+p6uykeOPXMuwG87c4g0BgjSNJybHQ==}
+
+  '@quenty/promise@10.18.1':
+    resolution: {integrity: sha512-U0/cVc4/4uY43r+BaoGq4wkcAq8q1poISro4vKw/pDTrB1EWLYPDKAhd+cpFybJ1sVV61lp8zj1ys7+qLflNPQ==}
+
+  '@quenty/servicebag@11.18.1':
+    resolution: {integrity: sha512-P2VneQ+0PrdHFTbZqQz9dlSvgHXKn9eW/zT8QESLovxoS9nGIQMIhC3Bh5zYvXK1cZBhCxZVxuUwH87RdtG3XQ==}
+
+  '@quenty/signal@7.13.1':
+    resolution: {integrity: sha512-gc225T/jLNBRFWbgkc3hx3Ta8ufu3iNa+Su1C2n4HAAR6uuRCwhWfH/3S+oqDZgyY9M0MZEMkMzOZHE78AkGNA==}
+
+  '@quentystudios/jest-lua@3.10.0-quenty.2':
+    resolution: {integrity: sha512-TE7vhnYjygcBjjqeKLsmbwxhJeiDeekh/E2xcvQ0VZAwHNr+Yn1pk1n/PRJu+KtH2fWYkw20pQO4o/hKPs0lRA==}
+
+snapshots:
+
+  '@quenty/baseobject@10.13.0':
+    dependencies:
+      '@quenty/loader': 10.11.0
+      '@quenty/maid': 3.9.0
+
+  '@quenty/deferred@2.3.2': {}
+
+  '@quenty/loader@10.11.0': {}
+
+  '@quenty/maid@3.9.0':
+    dependencies:
+      '@quenty/loader': 10.11.0
+      '@quenty/nevermore-test-runner': 1.4.0
+      '@quentystudios/jest-lua': 3.10.0-quenty.2
+
+  '@quenty/math@2.7.5': {}
+
+  '@quenty/nevermore-test-runner@1.4.0':
+    dependencies:
+      '@quenty/loader': 10.11.0
+      '@quentystudios/jest-lua': 3.10.0-quenty.2
+
+  '@quenty/promise@10.18.1':
+    dependencies:
+      '@quenty/deferred': 2.3.2
+      '@quenty/loader': 10.11.0
+      '@quenty/maid': 3.9.0
+      '@quenty/math': 2.7.5
+      '@quenty/signal': 7.13.1
+
+  '@quenty/servicebag@11.18.1':
+    dependencies:
+      '@quenty/baseobject': 10.13.0
+      '@quenty/loader': 10.11.0
+      '@quenty/signal': 7.13.1
+
+  '@quenty/signal@7.13.1':
+    dependencies:
+      '@quenty/loader': 10.11.0
+
+  '@quentystudios/jest-lua@3.10.0-quenty.2': {}
